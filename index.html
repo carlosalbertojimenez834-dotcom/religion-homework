@@ -3,90 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Faith Journey - HRE4M Project</title>
+    <title>My Faith Journey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f7f6;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
         }
-
         .container {
-            background-color: #fff;
-            padding: 40px 50px;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             max-width: 800px;
-            width: 90%;
-            text-align: center;
+            margin: 0 auto;
+            padding: 2rem;
         }
-
-        header h1 {
-            color: #2c3e50;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            color: #7f8c8d;
-            font-size: 1.1em;
-            font-style: italic;
-        }
-
-        .content {
-            text-align: left;
-            margin-top: 30px;
-            font-size: 1.1em;
-            color: #555;
-        }
-
-        .content p {
-            margin-bottom: 20px;
-        }
-
-        .letter-signature {
-            margin-top: 40px;
-            text-align: right;
-            font-weight: bold;
-        }
-
-        .important-words {
-            font-weight: bold;
-            color: #3498db;
+        .card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            word-wrap: break-word;
         }
     </style>
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800 p-4 sm:p-8">
 
-<div class="container">
-    <header>
-        <h1>My Faith Journey</h1>
-        <p>Project for HRE4M Class</p>
-    </header>
+    <div class="container">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">My Faith Journey</h1>
+            <p class="text-lg sm:text-xl text-gray-500">A letter to my grandma</p>
+        </header>
+        
+        <main class="card">
+            <div class="prose max-w-none text-base sm:text-lg">
+                <p><strong>Dear Grandma,</strong></p>
+                <p class="mb-6">I wanted to tell you about a thought I've been having for a school assignment. I was asked to reflect on my faith journey, and I realized how much it's changed from when I was a kid to now. I thought it would be interesting to share it with you.</p>
 
-    <div class="content">
-        <p>Dear Abuelita,</p>
+                <h2 class="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">1. As a child: My family’s faith</h2>
+                <p class="mb-6">When I was little, my faith was pretty simple. We went to church, celebrated the holidays, and I learned the Bible stories. It was something we did as a family, part of our routine, like just another tradition. Honestly, I didn't think much about it. To me, faith was something I was just given, not something I had chosen. It was something that united my family, and I didn't question why we did it.</p>
+                <p class="mb-6">My beliefs back then were basically a reflection of what my parents had taught me and what I saw around me. There was no personal connection, it was more like knowledge we had. Faith was a practice, something you did because it was the norm in my house, and I thought it was that way for everyone.</p>
 
-        <p>Hey! I hope everything’s going well. I’m working on a project for my religion class and they asked me to reflect on my faith journey, so I thought I'd write this to you. I always feel good talking to you about this stuff.</p>
+                <h2 class="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">2. High school: Who am I?</h2>
+                <p class="mb-6">As I got older, everything started to change. In high school, seeing that my friends came from different backgrounds and had their own beliefs, I started questioning mine. It wasn't enough to just follow traditions anymore; I wanted to know why I believed what I believed.</p>
+                <p class="mb-6">It was a little bit of a confusing time, like my faith was going through a kind of a reboot. What I had been told was no longer enough; I had to find my own answers. I started exploring, reading, and thinking more about what I truly believed, and how it all fit into my life. In this process, my relationship with faith became much more personal. I stopped seeing it as a simple tradition and started to consider it a fundamental part of who I am.</p>
 
-        <p>When I think about religion in general, I guess it’s about finding a purpose and a group of people you feel comfortable with. There are rules, stories, and things people do together. My faith is a little different, though. For me, it's not so much about going to church or following all the rules exactly, but more about <span class="important-words">feeling connected to something bigger</span> than me.</p>
+                <h2 class="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">3. The future: What I hope for my faith</h2>
+                <p class="mb-6">Thinking about the future, I see my faith as something that will guide me in the coming years. I hope it's a source of strength that helps me find my way and become a better person. I want it to influence my decisions and how I treat others, to help me be more compassionate.</p>
+                <p class="mb-6">I don't know exactly how it will show up in the future, but what I do know is that it won't be the same as it was when I was a kid. It will be something I have chosen, something I've worked on, and something that will continue to grow with me. It will be a guide that helps me live in a more authentic way and connect with something bigger than myself.</p>
 
-        <p>A couple of things that have become super important to me are <span class="important-words">gratitude</span> and being <span class="important-words">kind</span>. I’ve realized that life is kind of a gift, and trying to be thankful for the little things—like a cool sunset or a good song—helps me feel closer to whatever faith is. I also think how we treat others really matters; for me, that's the most important part of my faith.</p>
-
-        <p>Since I really value being kind and grateful, I'm going to make a <span class="important-words">conscious effort to be kinder</span> to the people around me. I think that by doing that, my faith will get stronger and it'll help me be a better person. It doesn't have to be anything huge, even just a small act of kindness every day is enough.</p>
-
-        <p>Anyway, thanks for reading. Talk to you soon!</p>
-
-        <p class="letter-signature">Carlos Jimenez</p>
+                <p class="text-right mt-6">With love,</p>
+                <p class="text-right font-bold text-xl sm:text-2xl text-blue-600">Carlos Jiménez</p>
+            </div>
+        </main>
     </div>
-</div>
 
 </body>
 </html>
